@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.6em;
+}
+.warning {
+  margin-bottom: 0.5em;
+  margin-right: 0.3em;
+  text-align: center;
+  font-size: 1.3rem;
+}
+@media (min-width: 950px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .card {
+    font-size: 1rem;
+    text-align: center;
+  }
+}

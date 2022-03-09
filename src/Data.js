@@ -46,6 +46,7 @@ import payanSebghatMkamion from "./img/payanSebghatMkamion.PNG";
 import tavahophM from "./img/tavahophM.PNG";
 import tavaghophMotlaghanM from "./img/tavaghophMotlaghanM.PNG";
 import payanMantagheM from "./img/payanMantagheM.PNG";
+import tavaghophFardM from "./img/tavaghophFardM.PNG";
 
 export const warningTablos = [
   { id: "1-w-t", src: stop, p: "ایست" },

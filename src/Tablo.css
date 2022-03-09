@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--blue-dark-second-clr);
+  border: 1px solid var();
+  padding: 1em 0em;
+  margin: 0 0.3em;
+  min-height: 100px;
+}
+.card > h3 {
+  margin-top: auto;
+}
+.card:hover {
+  background-color: var(--blue-light-clr);
+  color: var(--blue-dark-clr);
+}
+.imgContainer {
+  width: 6rem;
+}
+.imgContainer > img {
+  width: 100%;
+
+  /* overflow: hidden; */
+}
+@media (min-width: 950px) {
+  .imgContainer img {
+    width: 7rem;
+  }
+}

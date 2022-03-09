@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+:root {
+  --blue-dark-clr: rgb(14, 24, 95);
+  --blue-dark-second-clr: rgb(20, 33, 128);
+  --blue-light-clr: #2fa4ff;
+  --blue-bright-clr: #00ffdd;
+  --white-clr: #e8ffc2;
+}
+
+body {
+  background-color: var(--blue-dark-clr);
+  color: var(--white-clr);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--blue-bright-clr);
+}
+button {
+  background: none;
+  border: none;
+  color: var(--blue-light-clr);
+}
+.lightMode-bg {
+  background-color: var(--blue-bright-clr);
+  color: var(--blue-dark-clr);
+}
+.lightMode-bg a:hover {
+  color: var(--blue-light-clr);
+}
+.lightMode-cards .card {
+  background-color: var(--blue-light-clr);
+  color: var(--blue-dark-second-clr);
+}
+.lightMode-cards .card:hover {
+  background-color: var(--blue-dark-clr);
+  color: var(--blue-bright-clr);
+}
+.lightMode-bg .mode {
+  color: var(--blue-dark-second-clr);
+}
+.hideH4 {
+  display: none;
+}
